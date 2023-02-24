@@ -18,7 +18,7 @@
 
 application.properties file:
 
-```aidl
+```
 server.port=8080
 spring.h2.console.enabled=true
 #DB
@@ -84,7 +84,7 @@ http://localhost:8080/products/{id}
 
 ###Шаблоны тела запроса для добавления товаров:
 Hdd:
-```aidl
+```
 {
         "type": "hdd",
         "serial": "355722",
@@ -105,7 +105,7 @@ Hdd:
 
 Laptop:
 
-```aidl
+```
 {
         "type": "laptop",
         "serial": "2281337",
@@ -126,7 +126,7 @@ Laptop:
 
 Monitor:
 
-```aidl
+```
 {
         "type": "monitor",
         "serial": "77281337",
@@ -147,7 +147,7 @@ Monitor:
 
 PC:
 
-```aidl
+```
 {
         "type": "pc",
         "serial": "10281337",
