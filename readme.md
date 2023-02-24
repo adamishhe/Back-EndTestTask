@@ -1,6 +1,6 @@
-#Back-End Test Task
+# Back-End Test Task
 
-###Для реализации проекта использовались:
+### Для реализации проекта использовались:
 
 - H2 data base
 
@@ -8,7 +8,7 @@
 
 - Spring Data JPA
 
-###Подключение к интерфейсу БД:
+### Подключение к интерфейсу БД:
 
 - http://localhost:8080/h2-console
 
@@ -33,7 +33,7 @@ spring.jpa.hibernate.ddl-auto=update
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.H2Dialect
 ```
 
-###Выполнение запросов:
+### Выполнение запросов:
 
 
 Получение товара (Просмотр всех существующих товаров по типу):
@@ -79,11 +79,11 @@ spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.H2Dialect
 http://localhost:8080/products/{id}
 
 
-###Для тестирования проекта использовался *Postman*
+### Для тестирования проекта использовался *Postman*
 
 
 
-###Шаблоны тела запроса для добавления товаров:
+### Шаблоны тела запроса для добавления товаров:
 Hdd:
 ```
 {
